@@ -1,3 +1,8 @@
+/*
+ Dana Huget, V00860786
+ CSC 421 Assignment 1
+ Oct 4, 2018
+ */
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
