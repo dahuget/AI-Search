@@ -1,0 +1,15 @@
+Q1 Statistics:
+BreadthFirstTreeSearch:		(cost=568.0, expansions=27)	Timisoara Arad Sibiu Fagaras Bucharest 
+BreadthFirstGraphSearch:	(cost=568.0, expansions=12)	Timisoara Arad Sibiu Fagaras Bucharest 
+UniformCostTreeSearch:		(cost=536.0, expansions=92)	Timisoara Arad Sibiu Rimnicu Pitesti Bucharest 
+UniformCostGraphSearch:		(cost=536.0, expansions=12)	Timisoara Arad Sibiu Rimnicu Pitesti Bucharest 
+DepthFirstTreeSearch:		(cost=918.0, expansions=9)	Timisoara Lugoj Timisoara Arad Sibiu Rimnicu Sibiu Rimnicu Pitesti Bucharest 
+DepthFirstGraphSearch:		(cost=568.0, expansions=4)	Timisoara Arad Sibiu Fagaras Bucharest 
+TreeSearchDepthLimited(4):	(cost=568.0, expansions=15)	Timisoara Arad Sibiu Fagaras Bucharest 
+GraphSearchDepthLimited(4):	(cost=568.0, expansions=7)	Timisoara Arad Sibiu Fagaras Bucharest 
+IterativeDeepeningTreeSearch:	(cost=568.0, expansions=16)	Timisoara Arad Sibiu Fagaras Bucharest 
+IterativeDeepeningGraphSearch:	(cost=568.0, expansions=19)	Timisoara Arad Sibiu Fagaras Bucharest 
+
+Q2 Statistics:
+AstarTreeSearch:		(cost=536.0, expansions=11)	Timisoara Arad Sibiu Rimnicu Pitesti Bucharest 
+AstarGraphSearch:		(cost=536.0, expansions=10)	Timisoara Arad Sibiu Rimnicu Pitesti Bucharest 
