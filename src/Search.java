@@ -64,16 +64,7 @@ public class Search {
 
 	/*
 	QUESTION 1
-	• Breadth-first search (BFS) done
-	• Uniform-cost search (UCS) done
-	• Depth-first search (DFS) done
-	• Depth-limited search (DLS) impl
-	• Iterative deepening search (IDS) impl
-	 */
-	
-	//Iterative deepening, tree-search and graph-search QUESTION 1
-	// Depth-limited search (DFS, LIFO Frontier)
-	/*
+	Depth-limited search (DFS, LIFO Frontier)
 	function IterativeDeepening-TREE-SEARCH(problem) returns a solution, or failure
 		for limit=0 to infinity
 			result = DepthLimited-TREE-SEARCH(problem, limit)
@@ -92,6 +83,7 @@ public class Search {
 	}
 
 	/*
+	QUESTION 1
 	function IterativeDeepening-GRAPH-SEARCH(problem) returns a solution, or failure
 	for limit=0 to infinity
 		result = DepthLimited-GRAPH-SEARCH(problem, limit)
@@ -166,6 +158,7 @@ public class Search {
 	}
 
 	/*
+	QUESTION 1
 	function DepthLimited-TREE-SEARCH(problem, limit) returns a solution, or failure
 		initialize the frontier using the initial state of problem
 		loop do
@@ -175,7 +168,6 @@ public class Search {
 			if the depth of n is less than limit then
 				expand n adding the resulting nodes to the frontier
 	 */
-	// QUESTION 1
 	private String TreeSearchDepthLimited(Frontier frontier, int limit) {
 		//TODO
 		node_list = new ArrayList<Node>();
@@ -201,6 +193,7 @@ public class Search {
 	}
 
 	/*
+	QUESTION 1
 	function DepthLimited-GRAPH-SEARCH(problem, limit) returns a solution, or failure
 		initialize the frontier using the initial state of problem
 		initialize the explored set to be empty
@@ -212,7 +205,6 @@ public class Search {
 				add the state of n to explored
 				expand n adding the resulting nodes to the frontier
 	 */
-
 	private String GraphSearchDepthLimited(Frontier frontier, int limit) {
 		//TODO
 		node_list = new ArrayList<Node>();
@@ -284,7 +276,8 @@ public class Search {
 		return solution_str;
 	}
 
-	/* QUESTION 2
+	/*
+	QUESTION 2
 	print out the final search tree, and add at each node its path cost value (g), the heuristic
 	function value (h), their sum (f=g+h), and the order of expansion, e.g. the root will be 0,
 	then the next node expanded will be 1, etc.
